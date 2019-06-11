@@ -8,7 +8,7 @@ Cross-subject classification of cognitive loads using a recurrent-residual deep 
 
 Please consider citing our paper if you find this code useful in your research:
 
-@INPROCEEDINGS{8280897, 
+@misc{Jimenez-Gomez, 
 author={M. {Jiménez-Guarneros} and P. {Gómez-Gil}}, 
 booktitle={2017 IEEE Symposium Series on Computational Intelligence (SSCI)}, 
 title={Cross-subject classification of cognitive loads using a recurrent-residual deep network}, 
