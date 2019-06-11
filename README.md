@@ -1,10 +1,22 @@
 # recresnet
-Recurrent-Residual Neural Network:
+Cross-subject classification of cognitive loads using a recurrent-residual deep network
 
 	Jiménez-Guarneros M., Gómez-Gil P. "Cross-subject classi-
         fication of cognitive loads using a recurrent-residual 
         deep network". IEEE Symposium Series on Computational Inte-
         lligence (IEEE SSCI 2017).
+
+Please consider citing our paper if you find this code useful in your research:
+
+@INPROCEEDINGS{8280897, 
+author={M. {Jiménez-Guarneros} and P. {Gómez-Gil}}, 
+booktitle={2017 IEEE Symposium Series on Computational Intelligence (SSCI)}, 
+title={Cross-subject classification of cognitive loads using a recurrent-residual deep network}, 
+year={2017}, 
+volume={}, 
+number={}, 
+pages={1-7}, 
+month={Nov}}
 
 https://ieeexplore.ieee.org/document/8280897
 
