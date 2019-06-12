@@ -12,7 +12,7 @@ Please consider citing our paper if you find this code useful in your research:
         deep network". IEEE Symposium Series on Computational Inte-
         lligence (IEEE SSCI 2017).
 
-	https://ieeexplore.ieee.org/document/8280897
+Link: https://ieeexplore.ieee.org/document/8280897
 
 
 Packages:
