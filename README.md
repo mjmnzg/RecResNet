@@ -27,3 +27,9 @@ NOTE: Ubuntu 18.10 and Nvidia GTX 1080 were used in our experiments.
 Command to execute project:
 
 	CUDA_VISIBLE_DEVICES=0 python3 run_main.py --model resrecnet --dataset pbashivan --output outputs/resrecnet
+
+You must create the following output folders before to execute our code:
+
+	model/
+	outputs/resrecnet/
+	resume/
