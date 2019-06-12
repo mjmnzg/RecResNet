@@ -1,5 +1,4 @@
-# recresnet
-Cross-subject classification of cognitive loads using a recurrent-residual deep network
+# Cross-subject classification of cognitive loads using a recurrent-residual deep network
 
 Abstract: The problem of automatically learning temporal and spectral feature representations for EEG signals has been intensely studied in the last years. However, most solutions are focused on extracting representations used for training classifiers in particular subjects. This is not well suitable for applications involving several subjects, since it requires high computing times and costs at labeling data and training classifiers for each new subject involved. To address this problem, we propose an improvement of a deep neural network architecture, using residual layers and Gated Recurrent Units (GRU), able to extract feature representations for “cross-subject” classification. Our architecture, called RecResNet, achieved a better accuracy (0.907±0.124) and F-measure (0.896±0.148) than other baseline methods, when applied to the classification of four levels of cognitive loads using 13 subjects.
 
