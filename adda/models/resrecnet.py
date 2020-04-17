@@ -3,29 +3,17 @@ from collections import OrderedDict
 from adda.models.model import register_model_fn
 
 @register_model_fn('resrecnet')
-def resrecnet(inputs, scope = 'resrecnet', 
-           is_training=True, reuse=False, n_classes=4,
-           prob=0.5):
+def resrecnet(inputs, scope = 'resrecnet', is_training=True, reuse=False, n_classes=4, prob=0.5):
     """
-    ResRecNet_2.0 - Version of Residual Recurrent Network 2.0.
-        This Deep Neural Network was modified from paper
+        Version of Residual Recurrent Network (RecResNet) in Tensorflow v1.9.
         
         Jiménez-Guarneros M., Gómez-Gil P. "Cross-subject classi-
         fication of cognitive loads using a recurrent-residual 
         deep network". IEEE Symposium Series on Computational Inte-
         lligence (IEEE SSCI 2017).
         
-        to work in Tensorflow. Original deep network version was im-
-        plemented in Theano library, but this library is not commonly 
+        Original implementation was performed in Lagsane library, but it is not commonly 
         used now.
-        
-        Main changes to RecResNet:
-        
-        a) We do not use tahn activation function.
-        b) We use padding "valid" into second convolutional layer.
-        c) We use one fully connected (FC) layer instead two.
-        d) We add Batch normalization layer between FC layer.
-        e) We can use LSTM or GRU cells.
     
     Parameters:
         inputs - placeholder input.
