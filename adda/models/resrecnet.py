@@ -18,10 +18,10 @@ def resrecnet(inputs, scope = 'resrecnet', is_training=True, reuse=False, n_clas
     Parameters:
         inputs - placeholder input.
         scope - identifier to register network in execution.
-        type_rnn - option "LSTM" or "GRU".
         is_training - flag to ability dropout regularizer.
         reuse - flag to ability reuse network.
         n_classes - output neurons.
+        prob - probability for dropout.
     """
     layers = OrderedDict()
     
