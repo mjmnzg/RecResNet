@@ -25,7 +25,7 @@ Packages:
 	- NumPy (>= 1.8.2)
 	- SciPy (>= 0.13.3)
 
-NOTE: Ubuntu 18.10 and GeForce GTX 1080 Graphics card were used in our experiments.
+Experiments were performed using a PC Intel(R) Core (TM) i7 with a graphic card GTX 1080 Nvidia and Ubuntu v18.04. 
 
 
 Command to execute project:
