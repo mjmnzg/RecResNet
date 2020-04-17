@@ -1,12 +1,3 @@
-"""
-PROJECT: Classifiers based on Deep Learning and Domain Adaptation for EEG
-         signals from different subjects
-File:   util.py include complementary functions to train ResRecNet.
-        
-AUTOR:  PhD Student. Magdiel Jiménez Guarneros
-        email: magdiel.jg@inaoep.mx
-        Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)
-"""
 import logging
 import logging.config
 import os.path
