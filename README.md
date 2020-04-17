@@ -25,9 +25,6 @@ Packages:
 	- NumPy (>= 1.8.2)
 	- SciPy (>= 0.13.3)
 
-Experiments were performed using a PC Intel(R) Core (TM) i7 with a graphic card GTX 1080 Nvidia and Ubuntu v18.04. 
-
-
 Command to execute project:
 
 	CUDA_VISIBLE_DEVICES=0 python3 run_main.py --model resrecnet --dataset pbashivan --output outputs/resrecnet
