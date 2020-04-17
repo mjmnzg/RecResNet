@@ -21,7 +21,7 @@ Link: https://ieeexplore.ieee.org/document/8280897
 Packages:
 
 	- Python (>= 3.6)
-	- Tensorflow (>= 1.8)
+	- Tensorflow (>= 1.9)
 	- NumPy (>= 1.8.2)
 	- SciPy (>= 0.13.3)
 
@@ -31,9 +31,3 @@ NOTE: Ubuntu 18.10 and GeForce GTX 1080 Graphics card were used in our experimen
 Command to execute project:
 
 	CUDA_VISIBLE_DEVICES=0 python3 run_main.py --model resrecnet --dataset pbashivan --output outputs/resrecnet
-
-You must create the following output folders before to execute our code:
-
-	model/
-	outputs/resrecnet/
-	resume/
