@@ -1,20 +1,10 @@
 #!/usr/bin/python3
-"""
-PROJECT: Classifiers based on Deep Learning and Domain Adaptation for EEG
-         signals from different subjects
-File:   run_main.py used to run "Residual Recurrent Neural Network" (ResRecNet)
-        applied on Cognitive Load.
-        
-        Jiménez-Guarneros M., Gómez-Gil P. "Cross-subject classi-
-        fication of cognitive loads using a recurrent-residual 
-        deep network". IEEE Symposium Series on Computational Inte-
-        lligence (IEEE SSCI 2017).
-        
-AUTOR:  PhD Student. Magdiel Jiménez Guarneros
-        email: magdiel.jg@inaoep.mx
-        Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)
-"""
-    
+
+#   Paper: Cross-subject classification of cognitive loads using a recurrent-residual deep network
+#   Authors: Magdiel Jiménez-Guarneros, Pilar Gómez-Gil
+#   Contact emails: magdiel.jg@inaoep.mx, mjmnzg@gmail.com
+#   National Institute Of Astrophysics, Optics and Electronics, Puebla, Mexico
+
 import numpy as np
 from preprocessing.modules_pbashivan import load_bashivan_data
 from evaluation.loocv import loocv
